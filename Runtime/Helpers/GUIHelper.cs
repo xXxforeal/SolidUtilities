@@ -23,7 +23,8 @@
             // This is a known problem that the button does not align to center horizontally for some reason.
             // I tried alignment = TextAnchor.MiddleCenter, setting padding and margin to different values,
             // but to no avail. Any help with this is appreciated.
-            return GUI.Button(buttonRect, GUIContent.none, _closeButtonStyle);
+            //return GUI.Button(buttonRect, GUIContent.none, _closeButtonStyle);
+            return GUI.Button(buttonRect, GUIContent.none, new GUIStyle());
         }
 
         /// <summary>
